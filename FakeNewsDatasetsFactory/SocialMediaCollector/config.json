@@ -1,0 +1,16 @@
+{
+  "dump_location": "./dataset",
+  "dataset_dir": "./dataset",
+  "tweet_keys_file": "./SocialMediaCollector/resources/tweet_keys_file.txt",
+  "num_process": 4,
+  "num_twitter_keys": 2,
+  "data_collection_choice": [
+    {
+      "news_source": "NewsSocialMediaAssociation",
+      "label": ""
+    }
+
+  ],
+
+  "data_features_to_collect": [ "tweets" ]
+}

@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: extruct
+Version: 0.7.3
+Summary: Extract embedded metadata from HTML markup
+Home-page: https://github.com/scrapinghub/extruct
+Author: Scrapinghub
+Author-email: info@scrapinghub.com
+Maintainer: Scrapinghub
+Maintainer-email: info@scrapinghub.com
+License: UNKNOWN
+Keywords: extruct
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Dist: lxml
+Requires-Dist: rdflib
+Requires-Dist: rdflib-jsonld
+Requires-Dist: mf2py
+Requires-Dist: w3lib
+Requires-Dist: six
+Provides-Extra: cli
+Requires-Dist: requests ; extra == 'cli'
+Provides-Extra: service
+Requires-Dist: bottle ; extra == 'service'
+Requires-Dist: gevent ; extra == 'service'
+Requires-Dist: requests ; extra == 'service'
+
+UNKNOWN
+
+
